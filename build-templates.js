@@ -27,25 +27,6 @@ let source = new Funnel(tree, {
   include: ['data.js', 'src/ui/**/*']
 })
 
-let rolledupSource = new Rollup(source, {
-  rollup: {
-    plugins: [
-     babel({
-       exclude: 'node_modules/**',
-       babelrc:false,
-       presets: ["@babel/preset-env"],
-     }),
-    ],
-    input: 'data.js',
-    output: {
-      file: 'client.js',
-      format: 'es',
-    },
-  }
-})
-
-var mergedNode = new BroccoliMergeTrees([rolledupSource, templates]);
-
 const builder = new Builder(templates);
 
 const outputDir = 'dist';
