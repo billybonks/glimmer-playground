@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/billybonks/.nvm/versions/node/v8.11.3/bin/node /usr/local/Cellar/yarn/1.9.2/libexec/bin/yarn.js add glimmerjs
+
+PATH: 
+  /Users/billybonks/.rbenv/shims:/Users/billybonks/.nvm/versions/node/v8.11.3/bin:/Users/billybonks/.rbenv/shims:/Users/billybonks/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Postgres.app/Contents/Versions/latest/bin/
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/glimmerjs: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:64150:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:137416:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:138388:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:138310:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "glimmerland",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
